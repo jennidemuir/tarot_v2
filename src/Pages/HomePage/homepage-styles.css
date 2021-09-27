@@ -1,0 +1,65 @@
+.homepage {
+  background-image: url("../HomePage/lace-pattern2.png");
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.linkContainer {
+  margin-top: 100px;
+  justify-content: center;
+  margin: auto;
+  /* padding-top: 3%; */
+}
+
+.linkContainer h2 {
+  margin: 0 auto;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  color: rgba(255, 162, 86, 0.959);
+  text-shadow: 2px 1px rgba(118, 24, 121, 0.979);
+}
+
+#libraryContainer {
+  grid-column: 1;
+}
+
+#oracleContainer {
+  grid-column: 2;
+}
+
+.homeImage {
+  width: 250px;
+}
+.homeImage:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .homepage {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .linkContainer h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(28, 113, 170);
+    text-shadow: 2px 1px rgba(76, 4, 78, 0.514);
+  }
+
+  #libraryContainer {
+    grid-column: 1;
+  }
+
+  #oracleContainer {
+    grid-column: 2;
+  }
+
+  .homeImage {
+    width: 125px;
+  }
+}

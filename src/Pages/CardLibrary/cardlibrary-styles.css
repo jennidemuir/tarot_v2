@@ -1,0 +1,6 @@
+@media screen and (max-width: 600px) {
+  .library {
+    background-image: url("../CardLibrary/lace-pattern2.png");
+    margin-top: 69px;
+  }
+}

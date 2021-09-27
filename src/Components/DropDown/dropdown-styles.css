@@ -1,0 +1,21 @@
+.dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin-left: 60px;
+}
+
+.navlink {
+  text-decoration: none;
+
+  font-weight: 800;
+}
+
+/* @media screen and (max-width: 600px) {
+  .dropdown {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+} */

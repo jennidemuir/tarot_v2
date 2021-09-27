@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: 400px;
+  margin: 25px;
+}
+
+.card img {
+  width: 200px;
+}
+
+.card p {
+  font-family: "Roboto", sans-serif;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+}

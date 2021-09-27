@@ -1,0 +1,168 @@
+.cardreader {
+  background-image: url("../CardReader/lace-pattern1.png");
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 6fr 15fr;
+  /* row-gap: 0.75rem; */
+  justify-content: center;
+}
+
+.imgContainer {
+  /* grid-column: 2; */
+  grid-row: 1;
+
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+  grid-column: 1/-1;
+}
+
+.imgContainerTwo {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+  /* text-align: center; */
+  background-color: rgb(250, 236, 218);
+  width: 125px;
+  margin: auto;
+  padding: 5px;
+  border: 1px rgba(0, 0, 0, 0.3) solid;
+  box-shadow: 0 4px 8px 0 rgba(65, 41, 41, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+#newReadingBtn {
+  width: 75px;
+  margin: 10px auto;
+  /* margin-right: 50px; */
+
+  border-radius: 5%;
+  padding: 0.42rem;
+  color: rgba(255, 255, 255, 0.973);
+  background-color: rgb(228, 32, 235);
+  box-shadow: 0 4px 8px 0 rgba(65, 41, 41, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border: none;
+
+  font-size: 14px;
+  cursor: pointer;
+  /* display: inline-block; */
+}
+
+#newReadingBtn :active {
+  transform: scale(0.9);
+}
+
+.readingContainer {
+  grid-column: 1/-1;
+  grid-row: 2;
+
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 2fr 13fr;
+  justify-content: space-between;
+}
+.reading {
+  display: flex;
+  flex-direction: column;
+
+  padding: 15px;
+
+  color: hsla(337, 69%, 14%, 0.993);
+  /* border: 2px solid hsla(300, 47%, 49%, 0.644);
+  box-shadow: 5px 5px 5px hsla(300, 47%, 49%, 0.644); */
+  /* text-align: center;
+  position: relative;
+  width: 60vw;
+  height: 100vh;
+  
+  margin: 20px; */
+  /* padding: 20px; */
+  /* transform: translateX(-50%); */
+  /* background-color: rgba(253, 253, 253, 0.877); */
+}
+
+.readingEl {
+  grid-column: 2;
+  font-family: "Roboto", sans-serif;
+  color: hsl(357, 92%, 66%);
+  letter-spacing: 0.15rem;
+}
+
+#bckgrndImg {
+  padding-left: 15px;
+  grid-column: 1;
+
+  width: 250px;
+}
+
+#cardMeaning {
+  display: inline-block;
+  color: rgba(110, 87, 66, 0.911);
+  text-shadow: 2px 2px rgb(248, 184, 132);
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  align-self: end;
+  margin: auto;
+  padding-top: 25px;
+}
+
+#cardTitle {
+  color: rgb(248, 184, 132);
+  /* padding: 25px; */
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.75rem;
+  font-weight: 700;
+  font-size: 3rem;
+  text-shadow: 2px 2px rgb(216, 6, 94), 3px 3px hsla(338, 88%, 7%, 0.993);
+  margin: 20px auto;
+}
+
+#cardShort {
+  text-shadow: 1px 1px hsla(265, 83%, 21%, 0.993),
+    2px 2px rgba(235, 99, 156, 0.815);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+#cardLong {
+  text-shadow: 1px 1px hsla(265, 86%, 23%, 0.993),
+    2px 2px rgba(235, 99, 156, 0.815);
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.75;
+  /* text-shadow: 1px 1px 2px hsl(120, 91%, 9%); */
+}
+
+@media screen and (max-width: 875px) {
+  .cardreader {
+    /* margin-top: 80px; */
+  }
+
+  #newReadingBtn {
+  }
+
+  .image {
+    width: 90px;
+  }
+
+  #cardMeaning {
+    grid-column: 1/-1;
+  }
+  #bckgrndImg {
+    width: 150px;
+    align-self: start;
+    margin: 75px 0;
+  }
+}

@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: "Mate SC", serif;
+}
+
+body {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
