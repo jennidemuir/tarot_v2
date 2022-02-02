@@ -1,0 +1,45 @@
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.navElement {
+}
+
+#tarotNavElements {
+  display: flex;
+}
+#userNavElement {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.tarotLinkContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.userLinkContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.headerIcon {
+  padding: 0 15px;
+  height: 4rem;
+  width: auto;
+  cursor: pointer;
+}
+
+.link {
+  padding: 0.25rem 0 0 0.5rem;
+}

@@ -1,0 +1,28 @@
+/* h1{
+    padding-right: 3rem;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+.navElements{
+    display:flex;
+
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.tarotIcon {
+  height: 4rem;
+  width: auto;
+  cursor: pointer;
+}
+
+.link{
+    padding: .25rem 0 0 .50rem
+} */
