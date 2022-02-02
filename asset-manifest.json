@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tarot_v2/static/css/main.af68cf44.chunk.css",
+    "main.js": "/tarot_v2/static/js/main.e3e7b7c1.chunk.js",
+    "main.js.map": "/tarot_v2/static/js/main.e3e7b7c1.chunk.js.map",
+    "runtime-main.js": "/tarot_v2/static/js/runtime-main.f8a62a89.js",
+    "runtime-main.js.map": "/tarot_v2/static/js/runtime-main.f8a62a89.js.map",
+    "static/css/2.0f1110e3.chunk.css": "/tarot_v2/static/css/2.0f1110e3.chunk.css",
+    "static/js/2.57a8e674.chunk.js": "/tarot_v2/static/js/2.57a8e674.chunk.js",
+    "static/js/2.57a8e674.chunk.js.map": "/tarot_v2/static/js/2.57a8e674.chunk.js.map",
+    "index.html": "/tarot_v2/index.html",
+    "static/css/2.0f1110e3.chunk.css.map": "/tarot_v2/static/css/2.0f1110e3.chunk.css.map",
+    "static/css/main.af68cf44.chunk.css.map": "/tarot_v2/static/css/main.af68cf44.chunk.css.map",
+    "static/js/2.57a8e674.chunk.js.LICENSE.txt": "/tarot_v2/static/js/2.57a8e674.chunk.js.LICENSE.txt",
+    "static/media/crystal_ball.0780f292.png": "/tarot_v2/static/media/crystal_ball.0780f292.png",
+    "static/media/tarot.7db18f38.png": "/tarot_v2/static/media/tarot.7db18f38.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8a62a89.js",
+    "static/css/2.0f1110e3.chunk.css",
+    "static/js/2.57a8e674.chunk.js",
+    "static/css/main.af68cf44.chunk.css",
+    "static/js/main.e3e7b7c1.chunk.js"
+  ]
+}
